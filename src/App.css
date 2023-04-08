@@ -1,0 +1,41 @@
+#App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: .2rem;
+  background-color: rgb(237, 243, 243);
+  color:rgb(103, 161, 182);
+}
+
+.welcome {
+  align-items: center;
+  border-bottom: 5px rgb(103, 161, 182) solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: .5rem;
+  padding-bottom: .5rem;
+}
+
+button {
+  background-color: rgb(103, 161, 182);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  
+}
+
+
+.on {
+  color: #000;
+}
+
+.off {
+  color: #ccc;
+}
+
+image {
+  height: 200px;
+  width: 200px;
+}
